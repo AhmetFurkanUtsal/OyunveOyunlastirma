@@ -1,0 +1,4 @@
+repository "OyunveOyunlastirma@afurkan191@cloud"
+  path "/"
+    br "/main"
+    co "/main"

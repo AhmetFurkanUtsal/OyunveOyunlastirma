@@ -3,28 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAnimator : MonoBehaviour
-
-   
 {
 
     [SerializeField] private Animator animator;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  
 
-    // Update is called once per frame
-    void Update()
+    public void SetBool(string name, bool boolen)
     {
-        if(Input.GetKeyDown(KeyCode.W)) 
-        {
-            animator.SetBool("Run", true);
-        }
-
-        if (Input.GetKeyUp(KeyCode.W))
-        {
-            animator.SetBool("Run", false);
-        }
+        animator.SetBool(name, boolen); 
     }
 }
