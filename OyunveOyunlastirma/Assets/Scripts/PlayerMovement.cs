@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody rb;
     private PlayerAnimator playerAnimator;
+    [SerializeField] private float rotationSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
         vertical = Input.GetAxis("Vertical");
 
         Vector3 movement = new Vector3(horizontal, 0, vertical);
+        float magnitude = movement.magnitude;
+        magnitude = Mathf.Clamp01(magnitude);
         movement.Normalize();
 
         // Use MovePosition to update the kinematic Rigidbody's position
@@ -33,6 +36,8 @@ public class PlayerMovement : MonoBehaviour
         if (movement != Vector3.zero)
         {
             playerAnimator.SetBool("Walk", true);
+            Quaternion toRotation = Quaternion.LookRotation(movement, Vector3.up);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
         }
         else
         {
