@@ -44,4 +44,4 @@ public class PlayerMovement : MonoBehaviour
             playerAnimator.SetBool("Walk", false);
         }
     }
-}
+}   

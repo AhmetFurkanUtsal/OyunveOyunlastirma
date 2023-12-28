@@ -15,7 +15,7 @@ K:/Unity/OyunveOyunlastirma/OyunveOyunlastirma
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62899
+52324
 Successfully changed project path to: K:/Unity/OyunveOyunlastirma/OyunveOyunlastirma
 K:/Unity/OyunveOyunlastirma/OyunveOyunlastirma
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ K:/Unity/OyunveOyunlastirma/OyunveOyunlastirma
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14840] Host "[IP] 10.225.15.166 [Port] 0 [Flags] 2 [Guid] 606344850 [EditorId] 606344850 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BL44QFRD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7648] Host "[IP] 10.225.206.116 [Port] 0 [Flags] 2 [Guid] 4051318206 [EditorId] 4051318206 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BL44QFRD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14840] Host "[IP] 10.225.15.166 [Port] 0 [Flags] 2 [Guid] 606344850 [EditorId] 606344850 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BL44QFRD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7648] Host "[IP] 10.225.206.116 [Port] 0 [Flags] 2 [Guid] 4051318206 [EditorId] 4051318206 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BL44QFRD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 155.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1553.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path K:/Programs/Unity/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'K:/Programs/Unity/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'K:/Programs/Unity/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'K:/Programs/Unity/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: K:/Programs/Unity/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: K:/Programs/Unity/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004734 seconds.
-- Loaded All Assemblies, in  2.552 seconds
+Registered in 0.018100 seconds.
+- Loaded All Assemblies, in  1.224 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.327 seconds
-Domain Reload Profiling: 2880ms
-	BeginReloadAssembly (2249ms)
+- Finished resetting the current domain, in  0.518 seconds
+Domain Reload Profiling: 1744ms
+	BeginReloadAssembly (699ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (172ms)
-		LoadAssemblies (2258ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (315ms)
+		LoadAssemblies (696ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (160ms)
-			TypeCache.Refresh (158ms)
-				TypeCache.ScanAssembly (144ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (313ms)
+			TypeCache.Refresh (311ms)
+				TypeCache.ScanAssembly (282ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (328ms)
+	FinalizeReload (521ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (261ms)
+		SetupLoadedEditorAssemblies (388ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (180ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 2880ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.943 seconds
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.160 seconds
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.855 seconds
-Domain Reload Profiling: 2798ms
-	BeginReloadAssembly (154ms)
+- Finished resetting the current domain, in  1.492 seconds
+Domain Reload Profiling: 3638ms
+	BeginReloadAssembly (232ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (1697ms)
-		LoadAssemblies (1540ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1762ms)
+		LoadAssemblies (1531ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (245ms)
-			TypeCache.Refresh (222ms)
-				TypeCache.ScanAssembly (206ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (856ms)
+		AnalyzeDomain (362ms)
+			TypeCache.Refresh (334ms)
+				TypeCache.ScanAssembly (309ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1493ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (656ms)
+		SetupLoadedEditorAssemblies (1159ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (556ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (1013ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3247 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (130.5 KB). Loaded Objects now: 3712.
+Unloading 45 unused Assets / (130.6 KB). Loaded Objects now: 3712.
 Memory consumption went from 124.8 MB to 124.7 MB.
-Total: 4.188700 ms (FindLiveObjects: 0.335500 ms CreateObjectMapping: 0.295500 ms MarkObjects: 3.421300 ms  DeleteObjects: 0.134400 ms)
+Total: 12.206200 ms (FindLiveObjects: 0.564700 ms CreateObjectMapping: 0.556300 ms MarkObjects: 10.892800 ms  DeleteObjects: 0.190600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,825 +184,692 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 260552.520465 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(fb3d3a27eb81a7443b21dfb0bc2a339f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(fb3d3a27eb81a7443b21dfb0bc2a339f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad5822978b00e5750d1f345766d99d4') in 0.002000 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.426658 seconds.
-  path: Assets/ADI/Voxel Office Props
-  artifactKey: Guid(d4b4805fd2aab9149a0b63b7dbaa4db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props using Guid(d4b4805fd2aab9149a0b63b7dbaa4db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5f8222eed218cb0b4ae4d379a13078') in 0.000846 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.863177 seconds.
-  path: Assets/ADI/Voxel Office Props/Materials
-  artifactKey: Guid(9a73ca498fcd7464d9bd6c7467e15922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Materials using Guid(9a73ca498fcd7464d9bd6c7467e15922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a19ca77675d5e66221dd5f6b59413d5') in 0.000752 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.935743 seconds.
-  path: Assets/ADI/Voxel Office Props/Materials/emmisionLayer.png
-  artifactKey: Guid(14f1ebd14e552754e81784d7991ef473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Materials/emmisionLayer.png using Guid(14f1ebd14e552754e81784d7991ef473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b9df246a47997003ef6c17dc233ad9') in 0.127761 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ADI/Voxel Office Props/Materials/modelLitRed.mat
-  artifactKey: Guid(1d6d0a96761d42e47bd466b7f94e2ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Materials/modelLitRed.mat using Guid(1d6d0a96761d42e47bd466b7f94e2ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2098fe4c9ec1e4e5ddd735946b8bdc7b') in 0.165226 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/ADI/Voxel Office Props/Materials/modelMaterial.mat
-  artifactKey: Guid(1c939f7cfb400a3489a759b36370b3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Materials/modelMaterial.mat using Guid(1c939f7cfb400a3489a759b36370b3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a011b8c6c00f7d30debff687e4573970') in 0.027961 seconds
+  Time since last request: 1029225.895134 seconds.
+  path: Assets/020223_amd_sempron/materials/New Material 13.mat
+  artifactKey: Guid(cd2cba1d21b05584eae66515e567b826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/020223_amd_sempron/materials/New Material 13.mat using Guid(cd2cba1d21b05584eae66515e567b826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8897b7320a0fc751cbd64dd8eaf2515') in 0.298126 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ADI/Voxel Office Props/Materials/fill10.png
-  artifactKey: Guid(a0865b3e1d1230548a92c01b2d79cc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Materials/fill10.png using Guid(a0865b3e1d1230548a92c01b2d79cc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881e6964bf76b4a6225af3e853a5c605') in 0.038524 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ADI/Voxel Office Props/Materials/glass.mat
-  artifactKey: Guid(757ca598e3c89ac479db1a7c24999c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Materials/glass.mat using Guid(757ca598e3c89ac479db1a7c24999c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143e81f15c2972d96b7c99906a809176') in 0.263981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ADI/Voxel Office Props/Materials/modelLitBlue.mat
-  artifactKey: Guid(16f5361cfe0f78545a1406a69f6b58dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Materials/modelLitBlue.mat using Guid(16f5361cfe0f78545a1406a69f6b58dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b422d8c25557cbbfd090d804133b83d3') in 0.036706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/ADI/Voxel Office Props/Materials/modelTexture.png
-  artifactKey: Guid(23ecce56286a894419eebd05b822b510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Materials/modelTexture.png using Guid(23ecce56286a894419eebd05b822b510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffe8dfe3be10f80eed4a28a9b8dd8c3') in 0.033550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.940823 seconds.
-  path: Assets/ADI/Voxel Office Props/Models
-  artifactKey: Guid(0e99f7f4120b17747b350106a5783624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models using Guid(0e99f7f4120b17747b350106a5783624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8cc8779d988a323057b47467cd9f4bd') in 0.001105 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.056291 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/bin.obj
-  artifactKey: Guid(4bb64f27720ad814a97a28c340092cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/bin.obj using Guid(4bb64f27720ad814a97a28c340092cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8285b3f179b52b53259eb7b1fe63b7') in 0.093714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/chairBack1.obj
-  artifactKey: Guid(d15483e18c4f458488489d7e895c3879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/chairBack1.obj using Guid(d15483e18c4f458488489d7e895c3879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc24cf8ec78aee53d20ddc5493dd33f8') in 0.041005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/desk1.obj
-  artifactKey: Guid(faf84bd1ac83e39468a24b29d415d606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/desk1.obj using Guid(faf84bd1ac83e39468a24b29d415d606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b21c11a9d016e49f7d1269d57f4926') in 0.078516 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/fillingCabinetDrawDocs.obj
-  artifactKey: Guid(950f8264316af2649a6a87601ee42391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/fillingCabinetDrawDocs.obj using Guid(950f8264316af2649a6a87601ee42391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad0f7aeaedf9be3b652888e4890cfb8') in 0.069646 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/desk2.obj
-  artifactKey: Guid(70e696659d8e2a643b9641b8b2437910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/desk2.obj using Guid(70e696659d8e2a643b9641b8b2437910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d29df9284c5e178d8fff9ffc01f57b') in 0.062302 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/documents.obj
-  artifactKey: Guid(7d0a8867ee1f5ef4cb7686c682dbf563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/documents.obj using Guid(7d0a8867ee1f5ef4cb7686c682dbf563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c22ff59916738affeb49042dd9f4a9') in 0.064225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/fillingCabinetDraw.obj
-  artifactKey: Guid(34bae1490d55ab64db70e07599ca8ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/fillingCabinetDraw.obj using Guid(34bae1490d55ab64db70e07599ca8ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1278d6950011ea05c8bef8a6d462a5c8') in 0.072009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/diary.obj
-  artifactKey: Guid(c7e8d1fcae89b904fb8d4e3365ec06b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/diary.obj using Guid(c7e8d1fcae89b904fb8d4e3365ec06b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9176362b84ab2fbc6a4ca649fc374c1') in 0.082460 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/fillingCabinet.obj
-  artifactKey: Guid(7f06d55500b26d6429981dce62517c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/fillingCabinet.obj using Guid(7f06d55500b26d6429981dce62517c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70157d9eec6ff915b44f6720d5928745') in 0.067376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/documentTray.obj
-  artifactKey: Guid(9a8ca49c0baad9b4fa282bfde777ddea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/documentTray.obj using Guid(9a8ca49c0baad9b4fa282bfde777ddea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe69f05ce7e936e1136ea5399da5d08') in 0.065897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/chairBack2.obj
-  artifactKey: Guid(acb4744b07591f848b9849dc9654d7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/chairBack2.obj using Guid(acb4744b07591f848b9849dc9654d7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58965ee83b7b637fae280a34f96b0af') in 0.084336 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/chairBase.obj
-  artifactKey: Guid(af425758750c7ad43ab4577686d45f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/chairBase.obj using Guid(af425758750c7ad43ab4577686d45f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba25e42cc8d6bcbddff5ff35234370a1') in 0.069477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.686255 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/fillingCabinetNoDraws.obj
-  artifactKey: Guid(7e41545246e099d4da103b6631f9489b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/fillingCabinetNoDraws.obj using Guid(7e41545246e099d4da103b6631f9489b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5386ebf517855f8f01ea433af33603') in 0.052062 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/keyboard.obj
-  artifactKey: Guid(4c6f6c569f9f6cd4aa36702def42c80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/keyboard.obj using Guid(4c6f6c569f9f6cd4aa36702def42c80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74afc72e2fc2d81905c7a96d80f24fe3') in 0.040305 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.583553 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/keypad.obj
-  artifactKey: Guid(8d7d41194e14da84182b2170f5d75ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/keypad.obj using Guid(8d7d41194e14da84182b2170f5d75ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b013b1787989bd971e24dd6a6dbcd3a7') in 0.045075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/lamp.obj
-  artifactKey: Guid(7102cd2f50455c6459f5f9e7994db327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/lamp.obj using Guid(7102cd2f50455c6459f5f9e7994db327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f146ba01f03a7926301bfa0ce500f503') in 0.048355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.328942 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/laptop.obj
-  artifactKey: Guid(e5948365778fafb40a1465acdd6674f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/laptop.obj using Guid(e5948365778fafb40a1465acdd6674f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07da2855f3d882b6cb71d57b1614179a') in 0.046077 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/monitor.obj
-  artifactKey: Guid(8244cab4f6e05914fad738744cafc22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/monitor.obj using Guid(8244cab4f6e05914fad738744cafc22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9455de660711ee85e7ebb77759d270de') in 0.048232 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/recycleBin.obj
-  artifactKey: Guid(0601c3655df9cfe4db6782e99bc7c9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/recycleBin.obj using Guid(0601c3655df9cfe4db6782e99bc7c9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c6ad6c5e39e0a6668c045a1dc2e88c') in 0.062793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/waterCooler.obj
-  artifactKey: Guid(f3f538069160ced4faacf632ffd03a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/waterCooler.obj using Guid(f3f538069160ced4faacf632ffd03a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e552367e5bd5c4087f90099fff518906') in 0.060833 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/pc.obj
-  artifactKey: Guid(6c57c3bd7c5d3cb44976f1e68ce0edb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/pc.obj using Guid(6c57c3bd7c5d3cb44976f1e68ce0edb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2959f437667d1e7898205353e43cd0') in 0.061726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/phone.obj
-  artifactKey: Guid(8c5485112596bc249a989d0b9bc605c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/phone.obj using Guid(8c5485112596bc249a989d0b9bc605c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557c9ce257f56848853388f71a957ea7') in 0.084063 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/smartPhoneLocked.obj
-  artifactKey: Guid(46b0eb3a5b4c99643835297c7f5905e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/smartPhoneLocked.obj using Guid(46b0eb3a5b4c99643835297c7f5905e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5783557b56a8f595e1521514c4c14c8') in 0.069253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/printer2.obj
-  artifactKey: Guid(d2a726cb03d910545b2e5c9705ce8ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/printer2.obj using Guid(d2a726cb03d910545b2e5c9705ce8ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1ddd2b1cfb8be60c12ecdcbaeb9cd6') in 0.082369 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/smartPhone.obj
-  artifactKey: Guid(a7903522ce785ee449760ce2b5892092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/smartPhone.obj using Guid(a7903522ce785ee449760ce2b5892092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6612a252beea9ffb49cce02bf248c333') in 0.027581 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/tableEndLit.obj
-  artifactKey: Guid(e450c1265206c30418da824a4561ff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/tableEndLit.obj using Guid(e450c1265206c30418da824a4561ff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18a32dfbdc314af407b0f01fa87d30e') in 0.098538 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/projector.obj
-  artifactKey: Guid(147e35324013e63498a57d22c170d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/projector.obj using Guid(147e35324013e63498a57d22c170d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09140da68c6dfa4b5c203b9b3225602c') in 0.077830 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/tableCentreLit.obj
-  artifactKey: Guid(4cb1cf98bf61b04479d2a8fd58d3129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/tableCentreLit.obj using Guid(4cb1cf98bf61b04479d2a8fd58d3129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409a5deeae670014b23276bfd2e4a3cf') in 0.067553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/tableEnd.obj
-  artifactKey: Guid(af62ecfab9c43484bba3fc1c06d65cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/tableEnd.obj using Guid(af62ecfab9c43484bba3fc1c06d65cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c170441022b638ec1c8b3e7916b392') in 0.073205 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/printer.obj
-  artifactKey: Guid(d63661d86a71a2a4b9d00922a0123a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/printer.obj using Guid(d63661d86a71a2a4b9d00922a0123a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a231bae4626ea435d26538a0115f197') in 0.070073 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/tableCentre.obj
-  artifactKey: Guid(71d71b0e645b8794eb00f9e5c9264fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/tableCentre.obj using Guid(71d71b0e645b8794eb00f9e5c9264fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e32d3b396db3c5ea55e0c9a08560b24') in 0.066852 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 76.739360 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/desk1.obj
-  artifactKey: Guid(faf84bd1ac83e39468a24b29d415d606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/desk1.obj using Guid(faf84bd1ac83e39468a24b29d415d606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb4e72b916dbf7863123ddfca8a066b') in 0.060022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 252.618304 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/bin.prefab
-  artifactKey: Guid(cb8df2c98f82f2348957686081199aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/bin.prefab using Guid(cb8df2c98f82f2348957686081199aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6215499de736da393c494c086aa9285f') in 0.026210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/desk2.prefab
-  artifactKey: Guid(e8b9880a656da594ca6814ff9177bc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/desk2.prefab using Guid(e8b9880a656da594ca6814ff9177bc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f249d68dc0dc2e795301cf85cd95cb') in 0.021984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/lamp.prefab
-  artifactKey: Guid(d4e217778e534cb4fa3724d3da631d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/lamp.prefab using Guid(d4e217778e534cb4fa3724d3da631d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2197f7bc4aa2c7ab0d8e5583c555cff') in 0.020666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/pc.prefab
-  artifactKey: Guid(f92a252e273fcb349b88813895ab0264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/pc.prefab using Guid(f92a252e273fcb349b88813895ab0264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65f5ef8ceaf32cdcbdfef88165a3112') in 0.029503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/phone.prefab
-  artifactKey: Guid(06416f0090eabed4d9c9ad1ede4ed373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/phone.prefab using Guid(06416f0090eabed4d9c9ad1ede4ed373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87eb5f5dc10390983ac32aa8399ad452') in 0.041567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/printer2.prefab
-  artifactKey: Guid(f91c6e282a539734e94d481779bb454d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/printer2.prefab using Guid(f91c6e282a539734e94d481779bb454d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d78b3b6d4004041747686b1c2f3209') in 0.018732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/fillingCabinet.prefab
-  artifactKey: Guid(2733057fdfdc3394bb27c77a4a5f5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/fillingCabinet.prefab using Guid(2733057fdfdc3394bb27c77a4a5f5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f46584a081782476fe7fa0ae88595c') in 0.016957 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/monitor.prefab
-  artifactKey: Guid(485ba0c36b8ffd8429f8d143445b0cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/monitor.prefab using Guid(485ba0c36b8ffd8429f8d143445b0cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a7747c7d2823e2e9a020a9d32bb29b') in 0.017423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/tableCentre.prefab
-  artifactKey: Guid(1e84a5c2113512345bfbace90f70fbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/tableCentre.prefab using Guid(1e84a5c2113512345bfbace90f70fbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac961c2514181cd3a93c368f58818c8') in 0.018435 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/documentTray.prefab
-  artifactKey: Guid(4404196afc4773241bfaf2f07b50abb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/documentTray.prefab using Guid(4404196afc4773241bfaf2f07b50abb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a0f9c8e8565fcf3d5fb010438208b9') in 0.019499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/smartPhone.prefab
-  artifactKey: Guid(55938a3ad12a56d45af0710ba85a7f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/smartPhone.prefab using Guid(55938a3ad12a56d45af0710ba85a7f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e338afcbb3c743b4b85850e3bc1b2935') in 0.017822 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/chair2.prefab
-  artifactKey: Guid(a4c2179339aeac042866203c940e0718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/chair2.prefab using Guid(a4c2179339aeac042866203c940e0718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8771e81a2b0956df0474d0843aef9060') in 0.020366 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/chair1.prefab
-  artifactKey: Guid(1dd53bfeddd31c8438f1ccec6faf5f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/chair1.prefab using Guid(1dd53bfeddd31c8438f1ccec6faf5f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24daeef3499f420373b29946a48feb85') in 0.027369 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/printer.prefab
-  artifactKey: Guid(79a5b937093a5864d91d9a3a836ff1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/printer.prefab using Guid(79a5b937093a5864d91d9a3a836ff1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8ad06f9db827d59b5b6e702a42d740') in 0.043607 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/desk1.prefab
-  artifactKey: Guid(e1adc2d31fac236438c87e79d5c31628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/desk1.prefab using Guid(e1adc2d31fac236438c87e79d5c31628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1cf0373511f37e8a110cfc292a6202') in 0.018978 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/documents.prefab
-  artifactKey: Guid(9ae45fdfc92844d42a484dd8a4e0ae0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/documents.prefab using Guid(9ae45fdfc92844d42a484dd8a4e0ae0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11301825143cdd71c5c22eb7ddc93793') in 0.017048 seconds
+  path: Assets/020223_amd_sempron/materials/New Material 12.mat
+  artifactKey: Guid(4deff66337dd301498cb9eddbca54934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/020223_amd_sempron/materials/New Material 12.mat using Guid(4deff66337dd301498cb9eddbca54934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0715c0b176dcfa9f757de7d3599c19b7') in 0.029327 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/fillingCabinetOpenable.prefab
-  artifactKey: Guid(eb55cfc53f8a91b42b7c4e471bb2b538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/fillingCabinetOpenable.prefab using Guid(eb55cfc53f8a91b42b7c4e471bb2b538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4170c18bfb9e84ed785acc01ecf5293a') in 0.018909 seconds
+  Time since last request: 0.000075 seconds.
+  path: Assets/020223_amd_sempron/materials/New Material 8.mat
+  artifactKey: Guid(781953fa75399ba4991c1f501b8a8b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/020223_amd_sempron/materials/New Material 8.mat using Guid(781953fa75399ba4991c1f501b8a8b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee71e294223d26bc518ead931fcf3a7a') in 0.026904 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/keyboard.prefab
-  artifactKey: Guid(b62a967d3de8c1046995333b45ae13f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/keyboard.prefab using Guid(b62a967d3de8c1046995333b45ae13f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c348dfb9a49a50c3a3f3886326150c') in 0.017098 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/keypad.prefab
-  artifactKey: Guid(769d0371e7869b74db5b2dd0139d5279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/keypad.prefab using Guid(769d0371e7869b74db5b2dd0139d5279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1c0ab9e8b6144faaace0d54cf1bba1') in 0.018848 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/smartPhoneLocked.prefab
-  artifactKey: Guid(e2b2a4dd4f183034b8cffc10fcf54e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/smartPhoneLocked.prefab using Guid(e2b2a4dd4f183034b8cffc10fcf54e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21486209263bbd729d0154a59ce45723') in 0.020987 seconds
+  path: Assets/020223_amd_sempron/materials/New Material 11.mat
+  artifactKey: Guid(fbd712f657def52459b58af3f811b065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/020223_amd_sempron/materials/New Material 11.mat using Guid(fbd712f657def52459b58af3f811b065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeff58482ba4d608dedc673e36a4d3ea') in 0.042056 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/020223_amd_sempron/materials/New Material 14.mat
+  artifactKey: Guid(572810e8b73783c47bf9f24abfac28b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/020223_amd_sempron/materials/New Material 14.mat using Guid(572810e8b73783c47bf9f24abfac28b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c0adb817a475388c71e9c20755bacc') in 0.030402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/020223_amd_sempron/materials/New Material 9.mat
+  artifactKey: Guid(1edc0a3959bf1cd4c9508cbd66f65a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/020223_amd_sempron/materials/New Material 9.mat using Guid(1edc0a3959bf1cd4c9508cbd66f65a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f5da69b5b56a0c4f67d61f6f5095c2') in 0.051826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/020223_amd_sempron/materials/New Material 10.mat
+  artifactKey: Guid(cec762786770c144b967826242a2eb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/020223_amd_sempron/materials/New Material 10.mat using Guid(cec762786770c144b967826242a2eb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d8a2b2c2dcffb705010fa444ec2a14') in 0.028729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/projector.prefab
-  artifactKey: Guid(e46c83b5705b0a9429c8836bab32da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/projector.prefab using Guid(e46c83b5705b0a9429c8836bab32da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d40c133648d402d1daabe816881f6c') in 0.027339 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/laptop.prefab
-  artifactKey: Guid(390b7f13f064f5745b7c4ac57b227424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/laptop.prefab using Guid(390b7f13f064f5745b7c4ac57b227424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cd8fe4c72f20e956625cfb53b59af7') in 0.038218 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/recycleBin.prefab
-  artifactKey: Guid(1dfa42bb9327d20498f83b251b090304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/recycleBin.prefab using Guid(1dfa42bb9327d20498f83b251b090304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3e2f7a351e2f32bd448e525a67219a') in 0.019020 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/diary.prefab
-  artifactKey: Guid(365bf82b196f6a4408757cf51eadbc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/diary.prefab using Guid(365bf82b196f6a4408757cf51eadbc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345ed0587733be7ccf3224beff36a969') in 0.017384 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/tableCentreLit.prefab
-  artifactKey: Guid(c1d75a91ec5a28c4689c58e8f48d944c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/tableCentreLit.prefab using Guid(c1d75a91ec5a28c4689c58e8f48d944c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7447580a6827c10b536b69aae489baab') in 0.019676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 23.128690 seconds.
-  path: Assets/ADI
-  artifactKey: Guid(e315ad413db66824dbf28f5dbfc6c812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI using Guid(e315ad413db66824dbf28f5dbfc6c812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4888bcadb77e816b582aaae070dc96e8') in 0.000691 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.103708 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs
-  artifactKey: Guid(92a78b01533d0534c8ffe92fc5481e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs using Guid(92a78b01533d0534c8ffe92fc5481e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab6e94cd910e77dee01e4c74a357905') in 0.000834 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.808490 seconds.
-  path: Assets/ADI/Voxel Office Props/Vox Files
-  artifactKey: Guid(ff653d5d891465f42a5890183e6ae074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Vox Files using Guid(ff653d5d891465f42a5890183e6ae074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3aefd18a7eba6333fca14286bb82696') in 0.000643 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.124586 seconds.
-  path: Assets/ADI/Voxel Office Props/Vox Files/chairBack2.vox
-  artifactKey: Guid(e2ea0c11695ecf341b5e3e0c76eba498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Vox Files/chairBack2.vox using Guid(e2ea0c11695ecf341b5e3e0c76eba498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd568e78231397979fa9d64222811138') in 0.002350 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.583054 seconds.
-  path: Assets/ADI/Voxel Office Props/Vox Files/diary.vox
-  artifactKey: Guid(4bd7cda97c5f0c54bbc918dc4a15ca22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Vox Files/diary.vox using Guid(4bd7cda97c5f0c54bbc918dc4a15ca22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83934859e3171d223d763a3766333d9') in 0.001710 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.904174 seconds.
-  path: Assets/ADI/Voxel Office Props/demoScene.unity
-  artifactKey: Guid(1e2760016e4619242a23d9bca5f80be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/demoScene.unity using Guid(1e2760016e4619242a23d9bca5f80be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd084753ba318042372d559568198acb1') in 0.000738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1581.621832 seconds.
-  path: Assets/Model 1/uploads_files_2566529_Asus+Rog+Strix+z-390+i-gaming_fbx.fbx
-  artifactKey: Guid(a7fa1c8bbd0ec5941a839cc129d381b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model 1/uploads_files_2566529_Asus+Rog+Strix+z-390+i-gaming_fbx.fbx using Guid(a7fa1c8bbd0ec5941a839cc129d381b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6210773f306feaad635ee32f9216648a') in 1.864967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1792
-========================================================================
-Received Import Request.
-  Time since last request: 937.720206 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/tableEnd.prefab
-  artifactKey: Guid(d7d2539748bafe84c9bdd4224d951310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/tableEnd.prefab using Guid(d7d2539748bafe84c9bdd4224d951310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac941711b1b82e0671f7d9ec5d8b9b4') in 0.050958 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/waterCooler.prefab
-  artifactKey: Guid(a5175282aa463ff41a8fbb002ea1a60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/waterCooler.prefab using Guid(a5175282aa463ff41a8fbb002ea1a60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a054897570a735bc66e404d89edc25b') in 0.029170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000754 seconds.
-  path: Assets/ADI/Voxel Office Props/Prefabs/tableEndLit.prefab
-  artifactKey: Guid(933c5ab141b1aec46b263105a2d58288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Prefabs/tableEndLit.prefab using Guid(933c5ab141b1aec46b263105a2d58288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9f4210a71a7cb3312775dcae1c8919') in 0.038547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 319.864837 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 5.mat
-  artifactKey: Guid(6770597fab47f2a47968583e79aeaae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 5.mat using Guid(6770597fab47f2a47968583e79aeaae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0700a7cf66429b5cdbf371574e35894c') in 0.041486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 877.528455 seconds.
-  path: Assets/Model 1/uploads_files_3955737_Gaming+Monitor3+(1).fbx
-  artifactKey: Guid(f9f43c28524aee549a3191e5e2f49d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model 1/uploads_files_3955737_Gaming+Monitor3+(1).fbx using Guid(f9f43c28524aee549a3191e5e2f49d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74aad3b61ef002d1c509f16399fbe234') in 0.147803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 191.516619 seconds.
-  path: Assets/Model 1/uploads_files_2023715_Samurai_done.fbx
-  artifactKey: Guid(89bfbb16b46b4dc4f8f45312e892830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model 1/uploads_files_2023715_Samurai_done.fbx using Guid(89bfbb16b46b4dc4f8f45312e892830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c4e2c250de5fdb07f2866215cf28fd') in 1.625025 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 444
-========================================================================
-Received Import Request.
-  Time since last request: 1767.630075 seconds.
-  path: Assets/Model 1/Motherbord.fbx
-  artifactKey: Guid(9a9f8e9e830e09e4c8e8837a8699ba79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model 1/Motherbord.fbx using Guid(9a9f8e9e830e09e4c8e8837a8699ba79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716f9f193ac9e69bb3482ab0c8fd910b') in 2.718745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 258
-========================================================================
-Received Import Request.
-  Time since last request: 315.685297 seconds.
-  path: Assets/Model 1/uploads_files_2788444_CPU.fbx
-  artifactKey: Guid(b5ec253c65416c2489983d7b50f214be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model 1/uploads_files_2788444_CPU.fbx using Guid(b5ec253c65416c2489983d7b50f214be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e9063e3bd613020435b72d924d0a5f') in 0.312834 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 162
-========================================================================
-Received Import Request.
-  Time since last request: 1775.132022 seconds.
-  path: Assets/Model 1/uploads_files_3357320_book+shalf.fbx
-  artifactKey: Guid(ffea43c066da2df4c80ae095266d7b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model 1/uploads_files_3357320_book+shalf.fbx using Guid(ffea43c066da2df4c80ae095266d7b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef780ba39895206d30dd258cdb898285') in 3.160159 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 738
-========================================================================
-Received Import Request.
-  Time since last request: 4.307205 seconds.
-  path: Assets/020223_amd_sempron
-  artifactKey: Guid(10740cb15f51d4a44a7a22f6b9c7a2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron using Guid(10740cb15f51d4a44a7a22f6b9c7a2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c269fcc3201982afa21760fdc1e18b0') in 0.008128 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 346.810311 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 6.mat
-  artifactKey: Guid(91f3b03327233ec4d835d0abe42226d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 6.mat using Guid(91f3b03327233ec4d835d0abe42226d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e53a84fbfa7b4bc9f672ad01191439') in 0.039768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 29.666778 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 7.mat
-  artifactKey: Guid(fe9717b54bb3faf49a58ca6504ab50a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 7.mat using Guid(fe9717b54bb3faf49a58ca6504ab50a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d07d0a2b2b6b166befb97684fd029f6') in 0.030303 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 41.010278 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 8.mat
-  artifactKey: Guid(781953fa75399ba4991c1f501b8a8b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 8.mat using Guid(781953fa75399ba4991c1f501b8a8b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c80484459c1fefc683fc8e4438386e1') in 0.031958 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.275201 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 5.mat
-  artifactKey: Guid(6770597fab47f2a47968583e79aeaae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 5.mat using Guid(6770597fab47f2a47968583e79aeaae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11de54db5ca083edf47af0b4c0b071c7') in 0.029207 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 6.mat
-  artifactKey: Guid(91f3b03327233ec4d835d0abe42226d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 6.mat using Guid(91f3b03327233ec4d835d0abe42226d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be89944bb180bb7be493bb4cc261a3c9') in 0.023896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 7.mat
-  artifactKey: Guid(fe9717b54bb3faf49a58ca6504ab50a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 7.mat using Guid(fe9717b54bb3faf49a58ca6504ab50a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9143c8e5aecdc90dde61af0cc042e1bc') in 0.037298 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 9.mat
-  artifactKey: Guid(1edc0a3959bf1cd4c9508cbd66f65a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 9.mat using Guid(1edc0a3959bf1cd4c9508cbd66f65a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0802631eec24ff142ad66887ab25ca2d') in 0.034308 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.378654 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 10.mat
-  artifactKey: Guid(cec762786770c144b967826242a2eb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 10.mat using Guid(cec762786770c144b967826242a2eb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821e978ef38194f232e1b009ae0607a4') in 0.029068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.284885 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 11.mat
-  artifactKey: Guid(fbd712f657def52459b58af3f811b065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 11.mat using Guid(fbd712f657def52459b58af3f811b065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9d488bb6300123828ce172b6f488a4') in 0.029594 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.201069 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 12.mat
-  artifactKey: Guid(4deff66337dd301498cb9eddbca54934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 12.mat using Guid(4deff66337dd301498cb9eddbca54934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d730b84fcdd2f187fd67e8bbe36d6b8') in 0.026342 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.214323 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 13.mat
-  artifactKey: Guid(cd2cba1d21b05584eae66515e567b826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 13.mat using Guid(cd2cba1d21b05584eae66515e567b826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105f7390510ec4be494e22b7c570a67a') in 0.029236 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.154684 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 14.mat
-  artifactKey: Guid(572810e8b73783c47bf9f24abfac28b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 14.mat using Guid(572810e8b73783c47bf9f24abfac28b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e796775a49fa8979dd70c691954463') in 0.031399 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.142998 seconds.
   path: Assets/020223_amd_sempron/materials/New Material 15.mat
   artifactKey: Guid(29408ecfab1948c4d95d44b373c9d216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 15.mat using Guid(29408ecfab1948c4d95d44b373c9d216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564401a4a074f4aa25e0c153ca65155a') in 0.026317 seconds
+Start importing Assets/020223_amd_sempron/materials/New Material 15.mat using Guid(29408ecfab1948c4d95d44b373c9d216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b8a3a923ecb0d402db5e0293865ea6') in 0.052957 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.136888 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 16.mat
-  artifactKey: Guid(1a016b5a418f1d54ba93d3203a7dc601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 16.mat using Guid(1a016b5a418f1d54ba93d3203a7dc601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24fff6ed25942c6d7a846116e7e5d2f') in 0.027629 seconds
+  Time since last request: 4.957541 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(d2a96e7bcc1c4fb418aaaebfc8e4711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(d2a96e7bcc1c4fb418aaaebfc8e4711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3d5a29af84d1ae49b2b7bd48066153') in 0.000579 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.176462 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 17.mat
-  artifactKey: Guid(84c13f1c86974c84dbafc084dc6a9a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 17.mat using Guid(84c13f1c86974c84dbafc084dc6a9a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1e5c09fb205b9050e0d1a58785db30') in 0.033013 seconds
+  Time since last request: 29.440370 seconds.
+  path: Assets/Scripts/Kamera takip.cs
+  artifactKey: Guid(45ed3fb60af58ae4f94d67f6f1a203fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Kamera takip.cs using Guid(45ed3fb60af58ae4f94d67f6f1a203fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6bef341635d55230017508f7c2da83') in 0.000473 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.219532 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 18.mat
-  artifactKey: Guid(d91cbea58836dd24884307e8d3b4096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 18.mat using Guid(d91cbea58836dd24884307e8d3b4096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42866b89daa5bb8bc087b74b494f583c') in 0.027357 seconds
+  Time since last request: 239.962415 seconds.
+  path: Assets/Scripts/Kamera takip.cs
+  artifactKey: Guid(45ed3fb60af58ae4f94d67f6f1a203fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Kamera takip.cs using Guid(45ed3fb60af58ae4f94d67f6f1a203fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c4267cd275ff3a5a9848d190c8dcb8') in 0.018988 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.193715 seconds.
-  path: Assets/020223_amd_sempron/materials/New Material 19.mat
-  artifactKey: Guid(25ab985b7740cdf419acad66cd06f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/020223_amd_sempron/materials/New Material 19.mat using Guid(25ab985b7740cdf419acad66cd06f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597233df02f6021b77b928b537b47978') in 0.032076 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.373 seconds
+Refreshing native plugins compatible for Editor in 26.50 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.487 seconds
+Domain Reload Profiling: 8862ms
+	BeginReloadAssembly (371ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (122ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (2849ms)
+		LoadAssemblies (2900ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (45ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (5489ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2447ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (25ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (236ms)
+			ProcessInitializeOnLoadAttributes (2055ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (102.3 KB). Loaded Objects now: 3769.
+Memory consumption went from 130.1 MB to 130.0 MB.
+Total: 9.854400 ms (FindLiveObjects: 0.399000 ms CreateObjectMapping: 0.326000 ms MarkObjects: 9.019100 ms  DeleteObjects: 0.107800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1242.948737 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/desk1.obj
-  artifactKey: Guid(faf84bd1ac83e39468a24b29d415d606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/desk1.obj using Guid(faf84bd1ac83e39468a24b29d415d606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c6013667770656025870a0a07a4a87') in 0.090192 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.479 seconds
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.265 seconds
+Domain Reload Profiling: 5744ms
+	BeginReloadAssembly (331ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (965ms)
+		LoadAssemblies (1136ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (4266ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2378ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (181ms)
+			ProcessInitializeOnLoadAttributes (2075ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 7.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (102.3 KB). Loaded Objects now: 3784.
+Memory consumption went from 132.3 MB to 132.2 MB.
+Total: 5.284300 ms (FindLiveObjects: 0.303600 ms CreateObjectMapping: 0.289200 ms MarkObjects: 4.620300 ms  DeleteObjects: 0.069600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.634 seconds
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 13.962 seconds
+Domain Reload Profiling: 19599ms
+	BeginReloadAssembly (1391ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (353ms)
+	RebuildCommonClasses (199ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (3995ms)
+		LoadAssemblies (4786ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (53ms)
+			TypeCache.Refresh (30ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (13963ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (874ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (729ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (102.2 KB). Loaded Objects now: 3799.
+Memory consumption went from 134.3 MB to 134.2 MB.
+Total: 4.624400 ms (FindLiveObjects: 0.290600 ms CreateObjectMapping: 0.269400 ms MarkObjects: 3.985900 ms  DeleteObjects: 0.076500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.713 seconds
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.971 seconds
+Domain Reload Profiling: 4685ms
+	BeginReloadAssembly (402ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (152ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (1064ms)
+		LoadAssemblies (1280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (71ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2972ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1440ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (1319ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (102.3 KB). Loaded Objects now: 3814.
+Memory consumption went from 136.2 MB to 136.1 MB.
+Total: 4.741500 ms (FindLiveObjects: 0.440100 ms CreateObjectMapping: 0.318700 ms MarkObjects: 3.876100 ms  DeleteObjects: 0.104900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.263 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.376 seconds
+Domain Reload Profiling: 3639ms
+	BeginReloadAssembly (295ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (833ms)
+		LoadAssemblies (956ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2376ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (702ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (594ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 8.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (102.2 KB). Loaded Objects now: 3829.
+Memory consumption went from 138.1 MB to 138.0 MB.
+Total: 10.211200 ms (FindLiveObjects: 0.417500 ms CreateObjectMapping: 0.518900 ms MarkObjects: 9.194800 ms  DeleteObjects: 0.078100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.809 seconds
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.447 seconds
+Domain Reload Profiling: 2256ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (463ms)
+		LoadAssemblies (533ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1448ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (843ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (712ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (102.2 KB). Loaded Objects now: 3844.
+Memory consumption went from 140.1 MB to 140.0 MB.
+Total: 5.401700 ms (FindLiveObjects: 0.286600 ms CreateObjectMapping: 0.283600 ms MarkObjects: 4.729400 ms  DeleteObjects: 0.100500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.565 seconds
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.367 seconds
+Domain Reload Profiling: 1938ms
+	BeginReloadAssembly (225ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (347ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1373ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (828ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (705ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (102.3 KB). Loaded Objects now: 3859.
+Memory consumption went from 142.0 MB to 141.9 MB.
+Total: 7.035800 ms (FindLiveObjects: 0.434300 ms CreateObjectMapping: 0.424500 ms MarkObjects: 6.054100 ms  DeleteObjects: 0.121300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.678 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.978 seconds
+Domain Reload Profiling: 3656ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (275ms)
+	RebuildNativeTypeToScriptingClass (210ms)
+	initialDomainReloadingComplete (265ms)
+	LoadAllAssembliesAndSetupDomain (697ms)
+		LoadAssemblies (763ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (64ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1978ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (839ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (698ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (102.2 KB). Loaded Objects now: 3874.
+Memory consumption went from 143.9 MB to 143.8 MB.
+Total: 5.697200 ms (FindLiveObjects: 0.332800 ms CreateObjectMapping: 0.254600 ms MarkObjects: 5.031300 ms  DeleteObjects: 0.076800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.568 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.560 seconds
+Domain Reload Profiling: 2128ms
+	BeginReloadAssembly (225ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (250ms)
+		LoadAssemblies (345ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1561ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (913ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (745ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 8.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (102.3 KB). Loaded Objects now: 3889.
+Memory consumption went from 145.8 MB to 145.7 MB.
+Total: 5.564500 ms (FindLiveObjects: 0.430600 ms CreateObjectMapping: 0.504200 ms MarkObjects: 4.488100 ms  DeleteObjects: 0.139600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
