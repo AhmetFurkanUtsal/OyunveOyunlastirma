@@ -10,18 +10,24 @@ public class AteşEt : MonoBehaviour
 
     Camera kamera;
     public LayerMask zombiKatman;
+    PlayerMovement hpKontrol;
     void Start()
     {
         kamera = Camera.main;
+        hpKontrol = this.gameObject.GetComponent<PlayerMovement>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButton(0))
+        if(hpKontrol.YasiyorMu()== true)
         {
-            AtesEtme();
+            if (Input.GetMouseButton(0))
+            {
+                AtesEtme();
+            }
         }
+        
        
     }
     void AtesEtme()

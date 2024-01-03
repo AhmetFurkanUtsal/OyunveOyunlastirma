@@ -51,7 +51,7 @@ public class ZombiKod : MonoBehaviour
                 zombiNavMesh.SetDestination(hedefOyuncu.transform.position);
                 // yürüme animasyonu
                 zombiAnim.SetBool("yuruyor", true);
-                zombiAnim.SetBool("saldiriyor", false);
+                
                 this.transform.LookAt(hedefOyuncu.transform.position);
             }
             else
@@ -77,7 +77,7 @@ public class ZombiKod : MonoBehaviour
 
     public void HasarVer()
     {
-       // hedefOyuncu.GetComponent<PlayerMovement>().HasarAl();
+        hedefOyuncu.GetComponent<PlayerMovement>().HasarAl();
     }
     IEnumerator YokOl()
     {
