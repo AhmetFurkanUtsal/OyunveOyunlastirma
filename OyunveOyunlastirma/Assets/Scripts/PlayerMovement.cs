@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     private PlayerAnimator playerAnimator;
     [SerializeField] private float rotationSpeed;
-    
+
 
     // Start is called before the first frame update
 
@@ -27,13 +27,13 @@ public class PlayerMovement : MonoBehaviour
     // FixedUpdate is used for physics-related updates
     void FixedUpdate()
     {
-        if (saglik<= 0)
+        if (saglik <= 0)
         {
             hayattaMi = false;
             playerAnimator.SetBool("Dead", hayattaMi);
-            
+
         }
-        if(hayattaMi == true)
+        if (hayattaMi == true)
         {
             horizontal = Input.GetAxis("Horizontal");
             vertical = Input.GetAxis("Vertical");
@@ -58,7 +58,7 @@ public class PlayerMovement : MonoBehaviour
             }
 
         }
-       
+
     }
     public bool YasiyorMu()
     {
@@ -69,4 +69,4 @@ public class PlayerMovement : MonoBehaviour
     {
         saglik -= Random.Range(10, 20);
     }
-}   
+}
